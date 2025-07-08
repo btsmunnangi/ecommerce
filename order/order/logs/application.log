@@ -1,112 +1,20 @@
-2025-07-07T12:04:53.673+05:30  INFO 30952 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 30952 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T12:04:53.677+05:30  INFO 30952 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T12:04:54.384+05:30  INFO 30952 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T12:04:54.449+05:30  INFO 30952 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 MongoDB repository interface.
-2025-07-07T12:04:54.829+05:30  INFO 30952 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T12:04:54.846+05:30  INFO 30952 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T12:04:54.846+05:30  INFO 30952 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T12:04:54.897+05:30  INFO 30952 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T12:04:54.898+05:30  INFO 30952 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1151 ms
-2025-07-07T12:04:55.160+05:30  INFO 30952 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@306c7bf6, com.mongodb.Jep395RecordCodecProvider@664632e9, com.mongodb.KotlinCodecProvider@494c8f29]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T12:04:55.178+05:30  INFO 30952 --- [order] [cluster-ClusterId{value='686b6a8f512085444073fc96', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25113700, minRoundTripTimeNanos=0}
-2025-07-07T12:04:56.006+05:30  INFO 30952 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T12:04:56.014+05:30  INFO 30952 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.799 seconds (process running for 3.493)
-2025-07-07T12:30:43.177+05:30  INFO 30952 --- [order] [http-nio-8086-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-07T12:30:43.208+05:30  INFO 30952 --- [order] [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-07T12:30:43.337+05:30  INFO 30952 --- [order] [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 126 ms
-2025-07-07T14:08:09.908+05:30  INFO 30952 --- [order] [RMI TCP Connection(131)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-07T14:08:10.243+05:30  INFO 30952 --- [order] [RMI TCP Connection(131)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-07T14:08:10.328+05:30  INFO 30952 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-07T14:08:14.188+05:30  INFO 17012 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 17012 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T14:08:14.190+05:30  INFO 17012 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T14:08:14.942+05:30  INFO 17012 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T14:08:14.998+05:30  INFO 17012 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 MongoDB repository interface.
-2025-07-07T14:08:15.389+05:30  INFO 17012 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T14:08:15.409+05:30  INFO 17012 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T14:08:15.409+05:30  INFO 17012 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T14:08:15.470+05:30  INFO 17012 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T14:08:15.471+05:30  INFO 17012 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1218 ms
-2025-07-07T14:08:15.710+05:30  INFO 17012 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@14422d9d, com.mongodb.Jep395RecordCodecProvider@16c1519e, com.mongodb.KotlinCodecProvider@2a02e34b]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T14:08:15.747+05:30  INFO 17012 --- [order] [cluster-ClusterId{value='686b87776d60db0e91755ac0', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=40576300, minRoundTripTimeNanos=0}
-2025-07-07T14:08:16.387+05:30  INFO 17012 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T14:08:16.393+05:30  INFO 17012 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.753 seconds (process running for 3.616)
-2025-07-07T14:13:11.423+05:30  INFO 17012 --- [order] [http-nio-8086-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-07T14:13:11.461+05:30  INFO 17012 --- [order] [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-07T14:13:11.625+05:30  INFO 17012 --- [order] [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 157 ms
-2025-07-07T17:53:17.753+05:30  INFO 17012 --- [order] [RMI TCP Connection(210)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-07T17:53:18.122+05:30  INFO 17012 --- [order] [RMI TCP Connection(210)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-07T17:53:18.220+05:30  INFO 17012 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-07T17:53:22.228+05:30  INFO 36184 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 36184 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T17:53:22.231+05:30  INFO 36184 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T17:53:23.191+05:30  INFO 36184 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T17:53:23.271+05:30  INFO 36184 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 MongoDB repository interface.
-2025-07-07T17:53:23.813+05:30  INFO 36184 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T17:53:23.833+05:30  INFO 36184 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T17:53:23.834+05:30  INFO 36184 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T17:53:23.892+05:30  INFO 36184 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T17:53:23.893+05:30  INFO 36184 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1532 ms
-2025-07-07T17:53:24.212+05:30  INFO 36184 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@423a0e1d, com.mongodb.Jep395RecordCodecProvider@32f32623, com.mongodb.KotlinCodecProvider@3becc950]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T17:53:24.278+05:30  INFO 36184 --- [order] [cluster-ClusterId{value='686bbc3cdcdb0dfeaff664bf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47360700, minRoundTripTimeNanos=0}
-2025-07-07T17:53:25.226+05:30  INFO 36184 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T17:53:25.234+05:30  INFO 36184 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 3.703 seconds (process running for 4.83)
-2025-07-07T17:54:34.531+05:30  INFO 36184 --- [order] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-07T17:54:34.534+05:30  INFO 36184 --- [order] [RMI TCP Connection(10)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-07T17:54:34.543+05:30  INFO 36184 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-07T17:54:47.880+05:30  INFO 33344 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 33344 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T17:54:47.883+05:30  INFO 33344 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T17:54:48.454+05:30  INFO 33344 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T17:54:48.497+05:30  INFO 33344 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 MongoDB repository interface.
-2025-07-07T17:54:48.861+05:30  INFO 33344 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T17:54:48.876+05:30  INFO 33344 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T17:54:48.877+05:30  INFO 33344 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T17:54:48.932+05:30  INFO 33344 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T17:54:48.932+05:30  INFO 33344 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 991 ms
-2025-07-07T17:54:49.107+05:30  INFO 33344 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5099c59b, com.mongodb.Jep395RecordCodecProvider@73c31181, com.mongodb.KotlinCodecProvider@3d620a1]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T17:54:49.125+05:30  INFO 33344 --- [order] [cluster-ClusterId{value='686bbc918fb9e8c055c3d83c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20325100, minRoundTripTimeNanos=0}
-2025-07-07T17:54:49.703+05:30  INFO 33344 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T17:54:49.711+05:30  INFO 33344 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.248 seconds (process running for 2.954)
-2025-07-07T17:57:01.709+05:30  INFO 33344 --- [order] [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-07T17:57:01.726+05:30  INFO 33344 --- [order] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-07T17:57:01.778+05:30  INFO 33344 --- [order] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 50 ms
-2025-07-07T19:21:43.073+05:30  INFO 33344 --- [order] [RMI TCP Connection(93)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-07T19:21:43.421+05:30  INFO 33344 --- [order] [RMI TCP Connection(93)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-07T19:21:43.535+05:30  INFO 33344 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-07T19:21:48.317+05:30  INFO 14684 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 14684 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T19:21:48.321+05:30  INFO 14684 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T19:21:49.076+05:30  INFO 14684 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T19:21:49.146+05:30  INFO 14684 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 MongoDB repository interface.
-2025-07-07T19:21:49.618+05:30  INFO 14684 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T19:21:49.638+05:30  INFO 14684 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T19:21:49.638+05:30  INFO 14684 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T19:21:49.696+05:30  INFO 14684 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T19:21:49.697+05:30  INFO 14684 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1308 ms
-2025-07-07T19:21:49.985+05:30  INFO 14684 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@79476a4e, com.mongodb.Jep395RecordCodecProvider@52ae997b, com.mongodb.KotlinCodecProvider@f557c37]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T19:21:50.031+05:30  INFO 14684 --- [order] [cluster-ClusterId{value='686bd0f5e6db6d241e73dd13', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=53122700, minRoundTripTimeNanos=0}
-2025-07-07T19:21:50.774+05:30  INFO 14684 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T19:21:50.782+05:30  INFO 14684 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 3.025 seconds (process running for 4.34)
-2025-07-07T19:23:08.713+05:30  INFO 14684 --- [order] [http-nio-8086-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-07T19:23:08.714+05:30  INFO 14684 --- [order] [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-07T19:23:08.715+05:30  INFO 14684 --- [order] [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-07-07T19:24:14.660+05:30  INFO 14684 --- [order] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-07T19:24:14.678+05:30  INFO 14684 --- [order] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-07T19:24:14.695+05:30  INFO 14684 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-07T19:24:16.796+05:30  INFO 40992 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 40992 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T19:24:16.798+05:30  INFO 40992 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T19:24:17.381+05:30  INFO 40992 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T19:24:17.429+05:30  INFO 40992 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 MongoDB repository interface.
-2025-07-07T19:24:17.827+05:30  INFO 40992 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T19:24:17.843+05:30  INFO 40992 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T19:24:17.844+05:30  INFO 40992 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T19:24:17.905+05:30  INFO 40992 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T19:24:17.905+05:30  INFO 40992 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1032 ms
-2025-07-07T19:24:18.126+05:30  INFO 40992 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@494c8f29, com.mongodb.Jep395RecordCodecProvider@4f379769, com.mongodb.KotlinCodecProvider@1c57f6b2]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T19:24:18.146+05:30  INFO 40992 --- [order] [cluster-ClusterId{value='686bd18a4828a0295d61aa16', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=25226700, minRoundTripTimeNanos=0}
-2025-07-07T19:24:18.750+05:30  INFO 40992 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T19:24:18.757+05:30  INFO 40992 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.409 seconds (process running for 3.061)
-2025-07-07T19:28:03.588+05:30  INFO 40992 --- [order] [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-07T19:28:03.591+05:30  INFO 40992 --- [order] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-07T19:28:03.598+05:30  INFO 40992 --- [order] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2025-07-07T19:28:03.838+05:30  INFO 40992 --- [order] [http-nio-8086-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+2025-07-08T09:33:39.421+05:30  INFO 13196 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 13196 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
+2025-07-08T09:33:39.426+05:30  INFO 13196 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-08T09:33:40.288+05:30  INFO 13196 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-08T09:33:40.382+05:30  INFO 13196 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 MongoDB repository interface.
+2025-07-08T09:33:40.862+05:30  INFO 13196 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2025-07-08T09:33:40.882+05:30  INFO 13196 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-08T09:33:40.883+05:30  INFO 13196 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08T09:33:40.940+05:30  INFO 13196 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-08T09:33:40.941+05:30  INFO 13196 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1444 ms
+2025-07-08T09:33:41.224+05:30  INFO 13196 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4b515eab, com.mongodb.Jep395RecordCodecProvider@66c9b52f, com.mongodb.KotlinCodecProvider@1536ea40]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-07-08T09:33:41.246+05:30  INFO 13196 --- [order] [cluster-ClusterId{value='686c989d1dd06846c09d5153', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=29765400, minRoundTripTimeNanos=0}
+2025-07-08T09:33:41.946+05:30  INFO 13196 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2025-07-08T09:33:41.951+05:30  INFO 13196 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.985 seconds (process running for 3.666)
+2025-07-08T09:34:31.638+05:30  INFO 13196 --- [order] [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08T09:34:31.639+05:30  INFO 13196 --- [order] [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-08T09:34:31.640+05:30  INFO 13196 --- [order] [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-08T09:34:31.804+05:30  INFO 13196 --- [order] [http-nio-8086-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
 	acks = -1
 	auto.include.jmx.reporter = true
 	batch.size = 16384
@@ -203,223 +111,39 @@
 	transactional.id = null
 	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
 
-2025-07-07T19:28:03.903+05:30  INFO 40992 --- [order] [http-nio-8086-exec-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
-2025-07-07T19:28:03.970+05:30  INFO 40992 --- [order] [http-nio-8086-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Instantiated an idempotent producer.
-2025-07-07T19:28:04.078+05:30  INFO 40992 --- [order] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.9.1
-2025-07-07T19:28:04.081+05:30  INFO 40992 --- [order] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: f745dfdcee2b9851
-2025-07-07T19:28:04.081+05:30  INFO 40992 --- [order] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1751896684075
-2025-07-07T19:28:04.692+05:30  INFO 40992 --- [order] [kafka-producer-network-thread | order-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=order-producer-1] Cluster ID: jruaolNNSH-so6Qxsoj1Gw
-2025-07-07T19:28:06.221+05:30  INFO 40992 --- [order] [kafka-producer-network-thread | order-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=order-producer-1] ProducerId set to 0 with epoch 0
-2025-07-07T19:36:55.684+05:30  INFO 44756 --- [order] [main] com.order.order.OrderApplicationTests    : Starting OrderApplicationTests using Java 21.0.1 with PID 44756 (started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T19:36:55.687+05:30  INFO 44756 --- [order] [main] com.order.order.OrderApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T19:36:56.809+05:30  INFO 44756 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T19:36:56.917+05:30  INFO 44756 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 1 MongoDB repository interface.
-2025-07-07T19:36:58.732+05:30  INFO 44756 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.1+12-LTS-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@47272cd3, com.mongodb.Jep395RecordCodecProvider@73fbdf68, com.mongodb.KotlinCodecProvider@32f1fafe]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T19:36:58.885+05:30  INFO 44756 --- [order] [cluster-ClusterId{value='686bd482a73ae8cae7c6b528', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=107532400, minRoundTripTimeNanos=0}
-2025-07-07T19:37:01.758+05:30  INFO 44756 --- [order] [main] com.order.order.OrderApplicationTests    : Started OrderApplicationTests in 6.482 seconds (process running for 7.809)
-2025-07-07T20:04:49.998+05:30  INFO 40992 --- [order] [RMI TCP Connection(51)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-07T20:04:50.187+05:30  INFO 40992 --- [order] [RMI TCP Connection(51)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-07T20:04:50.279+05:30  INFO 40992 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-07T20:04:50.352+05:30  INFO 40992 --- [order] [RMI TCP Connection(51)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
-2025-07-07T20:04:50.428+05:30  INFO 40992 --- [order] [RMI TCP Connection(51)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2025-07-07T20:04:50.429+05:30  INFO 40992 --- [order] [RMI TCP Connection(51)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2025-07-07T20:04:50.430+05:30  INFO 40992 --- [order] [RMI TCP Connection(51)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
-2025-07-07T20:04:50.431+05:30  INFO 40992 --- [order] [RMI TCP Connection(51)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2025-07-07T20:04:50.440+05:30  INFO 40992 --- [order] [RMI TCP Connection(51)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for order-producer-1 unregistered
-2025-07-07T20:04:54.619+05:30  INFO 39612 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 39612 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T20:04:54.622+05:30  INFO 39612 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T20:04:55.399+05:30  INFO 39612 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T20:04:55.459+05:30  INFO 39612 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 MongoDB repository interface.
-2025-07-07T20:04:55.863+05:30  INFO 39612 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T20:04:55.880+05:30  INFO 39612 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T20:04:55.880+05:30  INFO 39612 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T20:04:55.929+05:30  INFO 39612 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T20:04:55.930+05:30  INFO 39612 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1235 ms
-2025-07-07T20:04:56.222+05:30  INFO 39612 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@1235151c, com.mongodb.Jep395RecordCodecProvider@5a1f778, com.mongodb.KotlinCodecProvider@4cc65c2]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T20:04:56.254+05:30  INFO 39612 --- [order] [cluster-ClusterId{value='686bdb109871b46a4a6f12c6', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33448800, minRoundTripTimeNanos=0}
-2025-07-07T20:04:56.954+05:30  INFO 39612 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T20:04:56.961+05:30  INFO 39612 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.947 seconds (process running for 3.972)
-2025-07-07T20:39:31.483+05:30  INFO 39612 --- [order] [RMI TCP Connection(32)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-07T20:39:31.756+05:30  INFO 39612 --- [order] [RMI TCP Connection(32)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-07T20:39:31.823+05:30  INFO 39612 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-07T20:39:36.919+05:30  INFO 16752 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 16752 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T20:39:36.923+05:30  INFO 16752 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T20:39:38.061+05:30  INFO 16752 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T20:39:38.148+05:30  INFO 16752 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 MongoDB repository interface.
-2025-07-07T20:39:39.050+05:30  INFO 16752 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T20:39:39.079+05:30  INFO 16752 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T20:39:39.080+05:30  INFO 16752 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T20:39:39.194+05:30  INFO 16752 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T20:39:39.194+05:30  INFO 16752 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2194 ms
-2025-07-07T20:39:39.682+05:30  INFO 16752 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@79476a4e, com.mongodb.Jep395RecordCodecProvider@52ae997b, com.mongodb.KotlinCodecProvider@f557c37]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T20:39:39.729+05:30  INFO 16752 --- [order] [cluster-ClusterId{value='686be333765c3d81af6775b4', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=57992200, minRoundTripTimeNanos=0}
-2025-07-07T20:39:41.069+05:30  INFO 16752 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T20:39:41.083+05:30  INFO 16752 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 5.117 seconds (process running for 6.949)
-2025-07-07T20:40:08.647+05:30  INFO 16752 --- [order] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-07T20:40:08.653+05:30  INFO 16752 --- [order] [RMI TCP Connection(10)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-07T20:40:08.672+05:30  INFO 16752 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-07T20:57:15.409+05:30  INFO 32756 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 32756 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T20:57:15.412+05:30  INFO 32756 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T20:57:16.163+05:30  INFO 32756 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T20:57:16.224+05:30  INFO 32756 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 MongoDB repository interface.
-2025-07-07T20:57:16.655+05:30  INFO 32756 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T20:57:16.675+05:30  INFO 32756 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T20:57:16.676+05:30  INFO 32756 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T20:57:16.731+05:30  INFO 32756 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T20:57:16.731+05:30  INFO 32756 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1254 ms
-2025-07-07T20:57:16.987+05:30  INFO 32756 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@16c1519e, com.mongodb.Jep395RecordCodecProvider@2a02e34b, com.mongodb.KotlinCodecProvider@5eabff6b]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T20:57:17.029+05:30  INFO 32756 --- [order] [cluster-ClusterId{value='686be754b7ebb005e6fe9bda', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=49068800, minRoundTripTimeNanos=0}
-2025-07-07T20:57:17.748+05:30  INFO 32756 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T20:57:17.756+05:30  INFO 32756 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.913 seconds (process running for 3.711)
-2025-07-07T21:03:10.824+05:30  INFO 32756 --- [order] [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-07T21:03:10.826+05:30  INFO 32756 --- [order] [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-07T21:03:10.833+05:30  INFO 32756 --- [order] [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2025-07-07T21:11:18.544+05:30  INFO 32756 --- [order] [http-nio-8086-exec-9] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
-	acks = -1
-	auto.include.jmx.reporter = true
-	batch.size = 16384
-	bootstrap.servers = [localhost:9092]
-	buffer.memory = 33554432
-	client.dns.lookup = use_all_dns_ips
-	client.id = order-producer-1
-	compression.gzip.level = -1
-	compression.lz4.level = 9
-	compression.type = none
-	compression.zstd.level = 3
-	connections.max.idle.ms = 540000
-	delivery.timeout.ms = 120000
-	enable.idempotence = true
-	enable.metrics.push = true
-	interceptor.classes = []
-	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
-	linger.ms = 0
-	max.block.ms = 60000
-	max.in.flight.requests.per.connection = 5
-	max.request.size = 1048576
-	metadata.max.age.ms = 300000
-	metadata.max.idle.ms = 300000
-	metadata.recovery.strategy = none
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partitioner.adaptive.partitioning.enable = true
-	partitioner.availability.timeout.ms = 0
-	partitioner.class = null
-	partitioner.ignore.keys = false
-	receive.buffer.bytes = 32768
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retries = 2147483647
-	retry.backoff.max.ms = 1000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.connect.timeout.ms = null
-	sasl.login.read.timeout.ms = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.login.retry.backoff.max.ms = 10000
-	sasl.login.retry.backoff.ms = 100
-	sasl.mechanism = GSSAPI
-	sasl.oauthbearer.clock.skew.seconds = 30
-	sasl.oauthbearer.expected.audience = null
-	sasl.oauthbearer.expected.issuer = null
-	sasl.oauthbearer.header.urlencode = false
-	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
-	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
-	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
-	sasl.oauthbearer.jwks.endpoint.url = null
-	sasl.oauthbearer.scope.claim.name = scope
-	sasl.oauthbearer.sub.claim.name = sub
-	sasl.oauthbearer.token.endpoint.url = null
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	socket.connection.setup.timeout.max.ms = 30000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	transaction.timeout.ms = 60000
-	transactional.id = null
-	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
-
-2025-07-07T21:11:18.640+05:30  INFO 32756 --- [order] [http-nio-8086-exec-9] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
-2025-07-07T21:11:18.688+05:30  INFO 32756 --- [order] [http-nio-8086-exec-9] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Instantiated an idempotent producer.
-2025-07-07T21:11:18.783+05:30  INFO 32756 --- [order] [http-nio-8086-exec-9] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.9.1
-2025-07-07T21:11:18.785+05:30  INFO 32756 --- [order] [http-nio-8086-exec-9] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: f745dfdcee2b9851
-2025-07-07T21:11:18.786+05:30  INFO 32756 --- [order] [http-nio-8086-exec-9] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1751902878777
-2025-07-07T21:11:19.509+05:30  INFO 32756 --- [order] [kafka-producer-network-thread | order-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=order-producer-1] Cluster ID: jruaolNNSH-so6Qxsoj1Gw
-2025-07-07T21:11:19.519+05:30  INFO 32756 --- [order] [kafka-producer-network-thread | order-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=order-producer-1] ProducerId set to 1 with epoch 0
-2025-07-07T21:18:20.513+05:30  INFO 32756 --- [order] [RMI TCP Connection(30)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-07T21:18:20.657+05:30  INFO 32756 --- [order] [RMI TCP Connection(30)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-07T21:18:20.713+05:30  INFO 32756 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-07T21:18:20.754+05:30  INFO 32756 --- [order] [RMI TCP Connection(30)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
-2025-07-07T21:18:20.820+05:30  INFO 32756 --- [order] [RMI TCP Connection(30)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2025-07-07T21:18:20.822+05:30  INFO 32756 --- [order] [RMI TCP Connection(30)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2025-07-07T21:18:20.822+05:30  INFO 32756 --- [order] [RMI TCP Connection(30)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
-2025-07-07T21:18:20.822+05:30  INFO 32756 --- [order] [RMI TCP Connection(30)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2025-07-07T21:18:20.830+05:30  INFO 32756 --- [order] [RMI TCP Connection(30)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for order-producer-1 unregistered
-2025-07-07T21:18:23.404+05:30  INFO 19312 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 19312 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T21:18:23.406+05:30  INFO 19312 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T21:18:24.042+05:30  INFO 19312 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T21:18:24.088+05:30  INFO 19312 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 MongoDB repository interface.
-2025-07-07T21:18:24.467+05:30  INFO 19312 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T21:18:24.484+05:30  INFO 19312 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T21:18:24.484+05:30  INFO 19312 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T21:18:24.545+05:30  INFO 19312 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T21:18:24.546+05:30  INFO 19312 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1081 ms
-2025-07-07T21:18:24.786+05:30  INFO 19312 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5b000fe6, com.mongodb.Jep395RecordCodecProvider@4751e8b9, com.mongodb.KotlinCodecProvider@7af443a3]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T21:18:24.818+05:30  INFO 19312 --- [order] [cluster-ClusterId{value='686bec48d76c3500bd5919a7', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=32394400, minRoundTripTimeNanos=0}
-2025-07-07T21:18:25.440+05:30  INFO 19312 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T21:18:25.448+05:30  INFO 19312 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.537 seconds (process running for 3.286)
-2025-07-07T21:23:27.735+05:30  INFO 19312 --- [order] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-07-07T21:23:27.870+05:30  INFO 19312 --- [order] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-07T21:23:27.908+05:30  INFO 19312 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-07T21:23:41.324+05:30  INFO 27128 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 27128 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
-2025-07-07T21:23:41.326+05:30  INFO 27128 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-07-07T21:23:42.161+05:30  INFO 27128 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2025-07-07T21:23:42.222+05:30  INFO 27128 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 MongoDB repository interface.
-2025-07-07T21:23:42.648+05:30  INFO 27128 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
-2025-07-07T21:23:42.667+05:30  INFO 27128 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-07T21:23:42.667+05:30  INFO 27128 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-07T21:23:42.726+05:30  INFO 27128 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-07T21:23:42.727+05:30  INFO 27128 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1313 ms
-2025-07-07T21:23:43.003+05:30  INFO 27128 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7792d851, com.mongodb.Jep395RecordCodecProvider@5cd96b41, com.mongodb.KotlinCodecProvider@7e1ffe70]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
-2025-07-07T21:23:43.041+05:30  INFO 27128 --- [order] [cluster-ClusterId{value='686bed86bc0b1e9504ac01e8', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=38879000, minRoundTripTimeNanos=0}
-2025-07-07T21:23:43.749+05:30  INFO 27128 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
-2025-07-07T21:23:43.758+05:30  INFO 27128 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 3.095 seconds (process running for 3.845)
-2025-07-07T21:26:49.816+05:30  INFO 27128 --- [order] [http-nio-8086-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-07T21:26:49.824+05:30  INFO 27128 --- [order] [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-07T21:26:49.847+05:30  INFO 27128 --- [order] [http-nio-8086-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
-2025-07-07T21:26:50.409+05:30  INFO 27128 --- [order] [http-nio-8086-exec-6] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+2025-07-08T09:34:31.840+05:30  INFO 13196 --- [order] [http-nio-8086-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-07-08T09:34:31.870+05:30  INFO 13196 --- [order] [http-nio-8086-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Instantiated an idempotent producer.
+2025-07-08T09:34:31.927+05:30  INFO 13196 --- [order] [http-nio-8086-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.9.1
+2025-07-08T09:34:31.929+05:30  INFO 13196 --- [order] [http-nio-8086-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: f745dfdcee2b9851
+2025-07-08T09:34:31.930+05:30  INFO 13196 --- [order] [http-nio-8086-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1751947471924
+2025-07-08T09:34:32.273+05:30  INFO 13196 --- [order] [kafka-producer-network-thread | order-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=order-producer-1] Cluster ID: jruaolNNSH-so6Qxsoj1Gw
+2025-07-08T09:34:32.286+05:30  INFO 13196 --- [order] [kafka-producer-network-thread | order-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=order-producer-1] ProducerId set to 3 with epoch 0
+2025-07-08T09:37:55.777+05:30  INFO 13196 --- [order] [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-07-08T09:37:56.166+05:30  INFO 13196 --- [order] [RMI TCP Connection(15)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08T09:37:56.214+05:30  INFO 13196 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-08T09:37:56.263+05:30  INFO 13196 --- [order] [RMI TCP Connection(15)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-07-08T09:37:56.353+05:30  INFO 13196 --- [order] [RMI TCP Connection(15)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-07-08T09:37:56.353+05:30  INFO 13196 --- [order] [RMI TCP Connection(15)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-07-08T09:37:56.354+05:30  INFO 13196 --- [order] [RMI TCP Connection(15)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-07-08T09:37:56.354+05:30  INFO 13196 --- [order] [RMI TCP Connection(15)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-07-08T09:37:56.362+05:30  INFO 13196 --- [order] [RMI TCP Connection(15)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for order-producer-1 unregistered
+2025-07-08T09:37:59.133+05:30  INFO 31904 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 31904 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
+2025-07-08T09:37:59.137+05:30  INFO 31904 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-08T09:38:00.377+05:30  INFO 31904 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-08T09:38:00.464+05:30  INFO 31904 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 MongoDB repository interface.
+2025-07-08T09:38:01.092+05:30  INFO 31904 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2025-07-08T09:38:01.115+05:30  INFO 31904 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-08T09:38:01.115+05:30  INFO 31904 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08T09:38:01.183+05:30  INFO 31904 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-08T09:38:01.184+05:30  INFO 31904 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1946 ms
+2025-07-08T09:38:01.606+05:30  INFO 31904 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4da1f38a, com.mongodb.Jep395RecordCodecProvider@3e377967, com.mongodb.KotlinCodecProvider@4dadd690]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-07-08T09:38:01.644+05:30  INFO 31904 --- [order] [cluster-ClusterId{value='686c99a1f78fcc4b46cd95ee', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48924600, minRoundTripTimeNanos=0}
+2025-07-08T09:38:02.729+05:30  INFO 31904 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2025-07-08T09:38:02.740+05:30  INFO 31904 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 4.442 seconds (process running for 5.289)
+2025-07-08T09:39:11.936+05:30  INFO 31904 --- [order] [http-nio-8086-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08T09:39:11.937+05:30  INFO 31904 --- [order] [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-08T09:39:11.938+05:30  INFO 31904 --- [order] [http-nio-8086-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-08T09:39:12.131+05:30  INFO 31904 --- [order] [http-nio-8086-exec-4] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
 	acks = -1
 	auto.include.jmx.reporter = true
 	batch.size = 16384
@@ -516,10 +240,321 @@
 	transactional.id = null
 	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
 
-2025-07-07T21:26:50.530+05:30  INFO 27128 --- [order] [http-nio-8086-exec-6] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
-2025-07-07T21:26:50.611+05:30  INFO 27128 --- [order] [http-nio-8086-exec-6] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Instantiated an idempotent producer.
-2025-07-07T21:26:50.782+05:30  INFO 27128 --- [order] [http-nio-8086-exec-6] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.9.1
-2025-07-07T21:26:50.786+05:30  INFO 27128 --- [order] [http-nio-8086-exec-6] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: f745dfdcee2b9851
-2025-07-07T21:26:50.787+05:30  INFO 27128 --- [order] [http-nio-8086-exec-6] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1751903810775
-2025-07-07T21:26:52.276+05:30  INFO 27128 --- [order] [kafka-producer-network-thread | order-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=order-producer-1] Cluster ID: jruaolNNSH-so6Qxsoj1Gw
-2025-07-07T21:26:52.279+05:30  INFO 27128 --- [order] [kafka-producer-network-thread | order-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=order-producer-1] ProducerId set to 2 with epoch 0
+2025-07-08T09:39:12.185+05:30  INFO 31904 --- [order] [http-nio-8086-exec-4] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-07-08T09:39:12.216+05:30  INFO 31904 --- [order] [http-nio-8086-exec-4] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Instantiated an idempotent producer.
+2025-07-08T09:39:12.280+05:30  INFO 31904 --- [order] [http-nio-8086-exec-4] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.9.1
+2025-07-08T09:39:12.281+05:30  INFO 31904 --- [order] [http-nio-8086-exec-4] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: f745dfdcee2b9851
+2025-07-08T09:39:12.281+05:30  INFO 31904 --- [order] [http-nio-8086-exec-4] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1751947752274
+2025-07-08T09:39:13.123+05:30  INFO 31904 --- [order] [kafka-producer-network-thread | order-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=order-producer-1] Cluster ID: jruaolNNSH-so6Qxsoj1Gw
+2025-07-08T09:39:13.131+05:30  INFO 31904 --- [order] [kafka-producer-network-thread | order-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=order-producer-1] ProducerId set to 4 with epoch 0
+2025-07-08T09:40:19.915+05:30  INFO 31904 --- [order] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-07-08T09:40:19.973+05:30  INFO 31904 --- [order] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08T09:40:20.007+05:30  INFO 31904 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-08T09:40:20.027+05:30  INFO 31904 --- [order] [RMI TCP Connection(13)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-07-08T09:40:20.062+05:30  INFO 31904 --- [order] [RMI TCP Connection(13)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-07-08T09:40:20.063+05:30  INFO 31904 --- [order] [RMI TCP Connection(13)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-07-08T09:40:20.064+05:30  INFO 31904 --- [order] [RMI TCP Connection(13)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-07-08T09:40:20.064+05:30  INFO 31904 --- [order] [RMI TCP Connection(13)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-07-08T09:40:20.067+05:30  INFO 31904 --- [order] [RMI TCP Connection(13)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for order-producer-1 unregistered
+2025-07-08T09:41:11.371+05:30  INFO 22900 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 22900 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
+2025-07-08T09:41:11.379+05:30  INFO 22900 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-08T09:44:14.825+05:30  INFO 2052 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 2052 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
+2025-07-08T09:44:14.831+05:30  INFO 2052 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-08T09:44:16.139+05:30  INFO 2052 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-08T09:44:16.272+05:30  INFO 2052 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120 ms. Found 1 MongoDB repository interface.
+2025-07-08T09:44:16.962+05:30  INFO 2052 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2025-07-08T09:44:16.988+05:30  INFO 2052 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-08T09:44:16.989+05:30  INFO 2052 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08T09:44:17.073+05:30  INFO 2052 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-08T09:44:17.074+05:30  INFO 2052 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2144 ms
+2025-07-08T09:44:17.476+05:30  INFO 2052 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@377874b4, com.mongodb.Jep395RecordCodecProvider@14422d9d, com.mongodb.KotlinCodecProvider@16c1519e]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-07-08T09:44:17.507+05:30  INFO 2052 --- [order] [cluster-ClusterId{value='686c9b19c81f6c7c309f414a', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36923500, minRoundTripTimeNanos=0}
+2025-07-08T09:44:17.940+05:30  WARN 2052 --- [order] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController': Unsatisfied dependency expressed through field 'producer': Error creating bean with name 'orderProducer' defined in file [C:\Users\Bala sundari\Downloads\order\order\target\classes\com\order\order\OrderProducer.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'spring.kafka-org.springframework.boot.autoconfigure.kafka.KafkaProperties': Could not bind properties to 'KafkaProperties' : prefix=spring.kafka, ignoreInvalidFields=false, ignoreUnknownFields=true
+2025-07-08T09:44:17.949+05:30  INFO 2052 --- [order] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-07-08T09:44:17.982+05:30  INFO 2052 --- [order] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-08T09:44:18.033+05:30 ERROR 2052 --- [order] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.kafka.producer.value-serializer' to java.lang.Class<?>:
+
+    Property: spring.kafka.producer.value-serializer
+    Value: "org.apache.kafka.common.serialization.JsonSerializer"
+    Origin: class path resource [application.properties] - 12:40
+    Reason: failed to convert java.lang.String to java.lang.Class<?> (caused by java.lang.ClassNotFoundException: org.apache.kafka.common.serialization.JsonSerializer)
+
+Action:
+
+Update your application's configuration
+
+2025-07-08T09:52:47.129+05:30  INFO 37536 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 37536 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
+2025-07-08T09:52:47.132+05:30  INFO 37536 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-08T09:52:47.872+05:30  INFO 37536 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-08T09:52:47.950+05:30  INFO 37536 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 MongoDB repository interface.
+2025-07-08T09:52:48.449+05:30  INFO 37536 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2025-07-08T09:52:48.466+05:30  INFO 37536 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-08T09:52:48.466+05:30  INFO 37536 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08T09:52:48.513+05:30  INFO 37536 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-08T09:52:48.514+05:30  INFO 37536 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1316 ms
+2025-07-08T09:52:48.796+05:30  INFO 37536 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4dadd690, com.mongodb.Jep395RecordCodecProvider@707e4fe4, com.mongodb.KotlinCodecProvider@3281dfc2]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-07-08T09:52:48.824+05:30  INFO 37536 --- [order] [cluster-ClusterId{value='686c9d1804369dd392acc737', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33631100, minRoundTripTimeNanos=0}
+2025-07-08T09:52:49.490+05:30  INFO 37536 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2025-07-08T09:52:49.497+05:30  INFO 37536 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.881 seconds (process running for 3.682)
+2025-07-08T10:14:18.489+05:30  INFO 37536 --- [order] [RMI TCP Connection(31)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-07-08T10:14:18.652+05:30  INFO 37536 --- [order] [RMI TCP Connection(31)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08T10:14:18.700+05:30  INFO 37536 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-08T10:14:34.889+05:30  INFO 38276 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 38276 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
+2025-07-08T10:14:34.892+05:30  INFO 38276 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-08T10:14:35.578+05:30  INFO 38276 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-08T10:14:35.633+05:30  INFO 38276 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 MongoDB repository interface.
+2025-07-08T10:14:36.119+05:30  INFO 38276 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2025-07-08T10:14:36.137+05:30  INFO 38276 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-08T10:14:36.137+05:30  INFO 38276 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08T10:14:36.187+05:30  INFO 38276 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-08T10:14:36.187+05:30  INFO 38276 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1209 ms
+2025-07-08T10:14:36.428+05:30  INFO 38276 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@71aaf151, com.mongodb.Jep395RecordCodecProvider@7061622, com.mongodb.KotlinCodecProvider@32d418a9]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-07-08T10:14:36.458+05:30  INFO 38276 --- [order] [cluster-ClusterId{value='686ca234e42a741577968171', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33705700, minRoundTripTimeNanos=0}
+2025-07-08T10:14:37.235+05:30  INFO 38276 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2025-07-08T10:14:37.242+05:30  INFO 38276 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.879 seconds (process running for 3.683)
+2025-07-08T10:39:00.151+05:30  INFO 38276 --- [order] [http-nio-8086-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08T10:39:00.175+05:30  INFO 38276 --- [order] [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-08T10:39:00.289+05:30  INFO 38276 --- [order] [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 110 ms
+2025-07-08T10:39:01.380+05:30  INFO 38276 --- [order] [http-nio-8086-exec-3] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = order-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.IntegerSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-07-08T10:39:01.571+05:30  INFO 38276 --- [order] [http-nio-8086-exec-3] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-07-08T10:39:01.698+05:30  INFO 38276 --- [order] [http-nio-8086-exec-3] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Instantiated an idempotent producer.
+2025-07-08T10:39:01.941+05:30  INFO 38276 --- [order] [http-nio-8086-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.9.1
+2025-07-08T10:39:01.947+05:30  INFO 38276 --- [order] [http-nio-8086-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: f745dfdcee2b9851
+2025-07-08T10:39:01.948+05:30  INFO 38276 --- [order] [http-nio-8086-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1751951341930
+2025-07-08T10:39:02.925+05:30  INFO 38276 --- [order] [kafka-producer-network-thread | order-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=order-producer-1] Cluster ID: jruaolNNSH-so6Qxsoj1Gw
+2025-07-08T10:39:02.928+05:30  INFO 38276 --- [order] [kafka-producer-network-thread | order-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=order-producer-1] ProducerId set to 5 with epoch 0
+2025-07-08T10:46:47.209+05:30  INFO 38276 --- [order] [RMI TCP Connection(41)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-07-08T10:46:47.339+05:30  INFO 38276 --- [order] [RMI TCP Connection(41)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-08T10:46:47.378+05:30  INFO 38276 --- [order] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-08T10:46:47.416+05:30  INFO 38276 --- [order] [RMI TCP Connection(41)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-07-08T10:46:47.477+05:30  INFO 38276 --- [order] [RMI TCP Connection(41)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2025-07-08T10:46:47.478+05:30  INFO 38276 --- [order] [RMI TCP Connection(41)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-07-08T10:46:47.479+05:30  INFO 38276 --- [order] [RMI TCP Connection(41)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-07-08T10:46:47.480+05:30  INFO 38276 --- [order] [RMI TCP Connection(41)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2025-07-08T10:46:47.490+05:30  INFO 38276 --- [order] [RMI TCP Connection(41)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for order-producer-1 unregistered
+2025-07-08T10:46:49.951+05:30  INFO 15688 --- [order] [main] com.order.order.OrderApplication         : Starting OrderApplication using Java 21.0.6 with PID 15688 (C:\Users\Bala sundari\Downloads\order\order\target\classes started by Bala sundari in C:\Users\Bala sundari\Downloads\order\order)
+2025-07-08T10:46:49.953+05:30  INFO 15688 --- [order] [main] com.order.order.OrderApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-07-08T10:46:50.663+05:30  INFO 15688 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-07-08T10:46:50.717+05:30  INFO 15688 --- [order] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 MongoDB repository interface.
+2025-07-08T10:46:51.118+05:30  INFO 15688 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2025-07-08T10:46:51.134+05:30  INFO 15688 --- [order] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-08T10:46:51.135+05:30  INFO 15688 --- [order] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-08T10:46:51.188+05:30  INFO 15688 --- [order] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-08T10:46:51.189+05:30  INFO 15688 --- [order] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1172 ms
+2025-07-08T10:46:51.439+05:30  INFO 15688 --- [order] [main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.5.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5a058be5, com.mongodb.Jep395RecordCodecProvider@4eaf7902, com.mongodb.KotlinCodecProvider@20c812c8]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2025-07-08T10:46:51.455+05:30  INFO 15688 --- [order] [cluster-ClusterId{value='686ca9c3a054cb136e76b928', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23492800, minRoundTripTimeNanos=0}
+2025-07-08T10:46:52.125+05:30  INFO 15688 --- [order] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2025-07-08T10:46:52.131+05:30  INFO 15688 --- [order] [main] com.order.order.OrderApplication         : Started OrderApplication in 2.678 seconds (process running for 3.388)
+2025-07-08T10:47:21.628+05:30  INFO 15688 --- [order] [http-nio-8086-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-08T10:47:21.629+05:30  INFO 15688 --- [order] [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-08T10:47:21.631+05:30  INFO 15688 --- [order] [http-nio-8086-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-07-08T10:47:21.844+05:30  INFO 15688 --- [order] [http-nio-8086-exec-3] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = order-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.IntegerSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-07-08T10:47:21.928+05:30  INFO 15688 --- [order] [http-nio-8086-exec-3] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2025-07-08T10:47:21.988+05:30  INFO 15688 --- [order] [http-nio-8086-exec-3] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=order-producer-1] Instantiated an idempotent producer.
+2025-07-08T10:47:22.096+05:30  INFO 15688 --- [order] [http-nio-8086-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.9.1
+2025-07-08T10:47:22.099+05:30  INFO 15688 --- [order] [http-nio-8086-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: f745dfdcee2b9851
+2025-07-08T10:47:22.100+05:30  INFO 15688 --- [order] [http-nio-8086-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1751951842087
+2025-07-08T10:47:22.642+05:30  INFO 15688 --- [order] [kafka-producer-network-thread | order-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=order-producer-1] Cluster ID: jruaolNNSH-so6Qxsoj1Gw
+2025-07-08T10:47:22.644+05:30  INFO 15688 --- [order] [kafka-producer-network-thread | order-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=order-producer-1] ProducerId set to 6 with epoch 0

@@ -31,7 +31,7 @@ public class OrderController {
   }
   @PostMapping
   public ResponseEntity<String> createOrder(@RequestBody Order order) {
-	  producer.sendMessage("Order is Created");
+	  producer.sendMessage(order);
 	  return new ResponseEntity<String>(service.createOrder(order),HttpStatus.OK);
   }
   @PutMapping("/{id}")
