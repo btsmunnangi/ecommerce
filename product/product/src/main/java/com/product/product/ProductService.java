@@ -1,11 +1,15 @@
 package com.product.product;
 
 import java.util.List;
-import java.util.Optional;
+import java.util.Objects;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import lombok.extern.slf4j.Slf4j;
@@ -16,8 +20,9 @@ public class ProductService {
 	@Autowired
 	ProductRepository repo;
 	private static final Logger logger = LoggerFactory.getLogger(ProductService.class);
-	public List<Product> getAllProducts(){
-		return repo.findAll();
+	public Page<Product> getAllProducts(int pageNumber,int pageSize,String sortBy){
+		Pageable pageable = PageRequest.of(pageNumber, pageSize, Sort.by(sortBy));
+		return repo.findAll(pageable);
 	}
 	public Product getProductById(Integer id) {
 		logger.info("ProductService::getProductById");
@@ -51,5 +56,41 @@ public class ProductService {
 			repo.save(prod);
 			return "Product Updated";
 		
+	}
+	public Product findProductByName(String name) {
+		Product p= repo.findProductByName(name);
+		if(Objects.isNull(p)){
+			throw new ResourceNotFoundException("Product Not Found with Name:"+name);
+		}
+		return p;
+	}
+	public List<Product> findProductByQty(Integer qty) {
+		List<Product> plist= repo.findProductByQty(qty);
+		System.out.println(plist);
+		if(plist==null||plist.isEmpty()){
+			throw new ResourceNotFoundException("Product Not Found with Qty:"+qty);
+		}
+		return plist;
+	}
+	public List<Product> findProductByNameAndQty(String name,Integer qty) {
+		List<Product> plist= repo.findProductByNameAndQty(name, qty);
+		if(plist==null||plist.isEmpty()){
+			throw new ResourceNotFoundException("Product Not Found with Name:"+name+"Qty:"+qty);
+		}
+		return plist;
+	}
+	public List<Product> findProductByQtyGreaterThan(Integer qty) {
+		List<Product> plist= repo.findProductByQtyGreaterThan(qty);
+		if(plist==null||plist.isEmpty()){
+			throw new ResourceNotFoundException("Product Not Found with Qty Greater than:"+qty);
+		}
+		return plist;
+	}
+	public List<Product> findProductByQtyLessThan(Integer qty) {
+		List<Product> plist= repo.findProductByQtyLessThan(qty);
+		if(plist==null||plist.isEmpty()){
+			throw new ResourceNotFoundException("Product Not Found with Qty Less than:"+qty);
+		}
+		return plist;
 	}
 }

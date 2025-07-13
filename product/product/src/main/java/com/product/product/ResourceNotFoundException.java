@@ -1,8 +1,11 @@
 package com.product.product;
 
 public class ResourceNotFoundException extends RuntimeException{
-	static final Long serialVersionUID=1L;
+	static final Long serialVersionUID = 1L;
     public ResourceNotFoundException(String message) {
 	     super(message);
    }
+    public  ResourceNotFoundException() {
+    	super("Resource not found");
+    }
 }
